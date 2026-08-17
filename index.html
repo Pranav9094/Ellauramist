@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Ellaura Mist — Premium skincare crafted with natural ingredients. Discover dermatologist-tested products for every skin type, made in India.">
+  <title>Ellaura Mist — Premium Natural Skincare</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ============================================================
+       GLOBAL NAVBAR — Floating pill, glass effect
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      <!-- Brand logo: gold/black monogram — ONLY place brand colors appear -->
+      <div class="nav-logo-icon">E</div>
+      <span class="nav-logo-text">Ellaura Mist</span>
+    </a>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home" class="active" data-section="home">Home</a>
+      <a href="#skin-quiz" data-section="skin-quiz">Skin Quiz</a>
+      <a href="#collection" data-section="collection">Collection</a>
+      <a href="#expertise" data-section="expertise">Expertise</a>
+      <a href="#experience" data-section="experience">Experience</a>
+    </div>
+
+    <div class="nav-hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="mobile-nav-overlay" id="mobileOverlay"></div>
+
+  <!-- Mobile Nav Panel -->
+  <div class="mobile-nav-panel" id="mobilePanel">
+    <a href="#home" data-section="home">Home</a>
+    <a href="#skin-quiz" data-section="skin-quiz">Skin Quiz</a>
+    <a href="#collection" data-section="collection">Collection</a>
+    <a href="#expertise" data-section="expertise">Expertise</a>
+    <a href="#experience" data-section="experience">Experience</a>
+  </div>
+
+
+  <!-- ============================================================
+       SECTION 1: HOME / HERO
+       ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-tagline">Premium Natural Skincare</p>
+      <h1 class="hero-title">
+        Reveal Your Natural<br>
+        <span class="gradient-text">Radiance & Glow</span>
+      </h1>
+      <p class="hero-description">
+        Crafted with nature's finest ingredients, Ellaura Mist brings you dermatologist-tested skincare
+        that nurtures, protects, and transforms every skin type.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#collection" class="btn-primary">
+          <span>Explore Collection</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#skin-quiz" class="btn-secondary">
+          <span>Find Your Skin Type</span>
+        </a>
+      </div>
+
+      <!-- Featured Product Card
+      <div class="hero-featured-card glass">
+        <div class="hero-featured-img">
+          PLACEHOLDER — real product image pending, using placeholder 
+          <span class="placeholder-icon">✦</span>
+        </div>
+        <div class="hero-featured-info">
+          <p class="label">Bestseller</p>
+          <h3>Skin Protection Sunscreen SPF 50</h3>
+          <p>Ultra professional broad spectrum protection for everyday use.</p>
+          <a href="#collection" class="btn-primary btn-small"><span>View Product</span></a>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- PLACEHOLDER: confirm certifications with client -->
+    <div class="hero-highlights">
+      <div class="highlights-grid">
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 12l2 2 4-4" />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+          </div>
+          <h4>Dermatologist Tested</h4>
+          <p>Clinically proven safe</p>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z" />
+              <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+              <line x1="9" y1="9" x2="9.01" y2="9" />
+              <line x1="15" y1="9" x2="15.01" y2="9" />
+            </svg>
+          </div>
+          <h4>Natural Ingredients</h4>
+          <p>Nature-powered formulas</p>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h4>All Skin Types</h4>
+          <p>Inclusive skincare for everyone</p>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h4>Made in India</h4>
+          <p>Proudly Indian-made</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 2: CHECK YOUR SKIN TYPE (QUIZ)
+       ============================================================ -->
+  <section class="quiz-section" id="skin-quiz">
+    <div class="container">
+      <div class="collection-header reveal">
+        <p class="section-label">Personalized Skincare</p>
+        <h2 class="section-title">Check Your Skin Type</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">Answer 3 quick questions to discover your skin type and get
+          personalized product recommendations.</p>
+      </div>
+
+      <div class="quiz-card glass" id="quizCard">
+        <!-- Progress -->
+        <div class="quiz-progress" id="quizProgress">
+          <p class="quiz-progress-label" id="quizStepLabel">Step 1 / 3</p>
+          <div class="quiz-progress-bar">
+            <div class="quiz-progress-fill" id="quizProgressFill" style="width: 33.33%"></div>
+          </div>
+        </div>
+
+        <!-- Questions Container (rendered by JS) -->
+        <div id="quizQuestionsContainer">
+          <!-- JS will render questions here -->
+        </div>
+
+        <!-- Fallback Next Button -->
+        <button class="btn-primary quiz-next-btn" id="quizNextBtn" style="display: none;">
+          <span>Next Question</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </button>
+
+        <!-- Result Card -->
+        <div class="quiz-result" id="quizResult">
+          <div class="quiz-result-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 12l2 2 4-4" />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+          </div>
+          <h3>Your Skin Type</h3>
+          <div class="skin-type-badge" id="resultType">Normal</div>
+          <p id="resultDesc">Your skin type has been identified based on your answers.</p>
+          <a href="#collection" class="btn-primary" id="viewRecommendedBtn">
+            <span>View Recommended Products</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <br>
+          <button class="quiz-restart" id="quizRestartBtn">Retake Quiz</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 3: COLLECTION
+       ============================================================ -->
+  <section class="collection-section" id="collection">
+    <div class="container">
+      <div class="collection-header reveal">
+        <p class="section-label">Our Products</p>
+        <h2 class="section-title">The Collection</h2>
+        <p class="section-subtitle" style="margin: 0 auto;">Explore our curated range of premium skincare, crafted with
+          natural ingredients for every skin type.</p>
+
+        <!-- Filter Chips -->
+        <div class="filter-chips" id="filterChips">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+
+      <!-- Product Grid (rendered by JS) -->
+      <div class="products-grid" id="productsGrid">
+        <!-- JS will render product cards here -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PRODUCT MODAL
+       ============================================================ -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">
+        <svg viewBox="0 0 24 24" fill="none">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+
+      <div class="modal-img" id="modalImg">
+        <span class="placeholder-icon">✦</span>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-category" id="modalCategory">Category</p>
+        <h2 id="modalName">Product Name</h2>
+        <p class="modal-tagline" id="modalTagline">Product tagline</p>
+
+        <div class="modal-highlights" id="modalHighlights">
+          <!-- JS renders 4 highlight items -->
+        </div>
+
+        <div class="modal-meta">
+          <div class="modal-meta-info">
+            <span class="modal-size" id="modalSize">Size</span>
+            <span class="modal-price" id="modalPrice">₹000</span>
+          </div>
+          <!-- PLACEHOLDER: Amazon link, client will provide -->
+          <a href="#" target="_blank" class="btn-primary btn-small" id="modalBuyBtn">
+            <span>Buy Now</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============================================================
+       SECTION 4: OUR EXPERTISE
+       ============================================================ -->
+  <!-- PLACEHOLDER: these are placeholder claims pending client certification confirmation -->
+  <section class="expertise-section" id="expertise">
+    <div class="container">
+      <div class="expertise-header reveal">
+        <p class="section-label">Why Choose Us</p>
+        <h2 class="section-title">Our Expertise</h2>
+        <p class="section-subtitle">At Ellaura Mist, we believe in the power of nature combined with cutting-edge
+          skincare science to deliver results you can see and feel.</p>
+      </div>
+
+      <div class="expertise-grid reveal">
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 12l2 2 4-4" />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+          </div>
+          <h3>Dermatologist Tested</h3>
+          <p>Every product undergoes rigorous dermatological testing to ensure safety and effectiveness for your skin.
+          </p>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2a10 10 0 0 1 0 20 10 10 0 0 1 0-20z" />
+              <path d="M2 12h4m12 0h4" />
+            </svg>
+          </div>
+          <h3>Natural Ingredients</h3>
+          <p>Enriched with natural extracts like Aloe Vera, Shea Butter, and Vitamin E — nurturing your skin the way
+            nature intended.</p>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>All Skin Types</h3>
+          <p>Gentle yet effective formulas designed for every skin concern — from oily and acne-prone to dry and
+            sensitive.</p>
+        </div>
+
+        <div class="expertise-card">
+          <div class="expertise-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3>Made in India</h3>
+          <p>Proudly formulated and manufactured in India, combining traditional wisdom with modern skincare innovation.
+          </p>
+        </div>
+      </div>
+
+      <!-- PLACEHOLDER: brand story/founder note, client to provide -->
+      <div class="brand-story reveal">
+        <h3>Our Story</h3>
+        <p>
+          Born from a passion for clean, effective skincare, Ellaura Mist was created to make premium skincare
+          accessible to everyone. We combine the best of nature with dermatological science to craft products
+          that truly work — because your skin deserves nothing less.
+        </p>
+        <p style="margin-top: 12px; font-size: 12px; color: var(--outline); font-style: italic;">
+          <!-- PLACEHOLDER: brand story/founder note, client to provide real story -->
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SECTION 5: EXPERIENCE
+       ============================================================ -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="experience-header reveal">
+        <p class="section-label">Real Results</p>
+        <h2 class="section-title">The Experience</h2>
+        <p class="section-subtitle">See what our community has to say — real people, real results, real glow.</p>
+      </div>
+
+      <!-- PLACEHOLDER: real customer videos, client to provide -->
+      <div class="video-grid reveal">
+        <div class="video-card">
+          <div class="video-play-btn">
+            <svg viewBox="0 0 24 24">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+          </div>
+          <div class="video-label">Skincare Routine</div>
+        </div>
+        <div class="video-card">
+          <div class="video-play-btn">
+            <svg viewBox="0 0 24 24">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+          </div>
+          <div class="video-label">Product Review</div>
+        </div>
+        <div class="video-card">
+          <div class="video-play-btn">
+            <svg viewBox="0 0 24 24">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+          </div>
+          <div class="video-label">Before & After</div>
+        </div>
+      </div>
+
+      <!-- PLACEHOLDER: real testimonials, client to provide -->
+      <div class="testimonials-label reveal">
+        <p class="section-label" style="margin-top: 16px;">Customer Love</p>
+        <h3 class="section-title" style="font-size: var(--headline-sm);">What They Say</h3>
+      </div>
+
+      <div class="testimonials-grid reveal">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">P</div>
+            <div class="testimonial-info">
+              <h4>Priya Sharma</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p>"The Moisturizing Cream has completely transformed my dry skin. It feels so soft and hydrated all day long.
+            Absolutely love it!"</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">A</div>
+            <div class="testimonial-info">
+              <h4>Ananya Patel</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p>"Finally found a sunscreen that doesn't leave a white cast! The SPF 50 is lightweight, blends perfectly,
+            and keeps my skin protected."</p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">S</div>
+            <div class="testimonial-info">
+              <h4>Sneha Desai</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p>"I love that Ellaura Mist uses natural ingredients. The Aloe Vera Gel soothes my sensitive skin instantly.
+            Highly recommend!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">E</div>
+            <span class="footer-logo-text">Ellaura Mist</span>
+          </div>
+          <p>Premium skincare crafted with nature's finest ingredients. Dermatologist-tested, naturally powered, made in
+            India.</p>
+          <!-- PLACEHOLDER: client social links -->
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor"
+                  stroke-width="2" />
+                <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2" />
+                <circle cx="17.5" cy="6.5" r="1.5" />
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill="none"
+                  stroke="currentColor" stroke-width="2" />
+              </svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13C5.12 19.58 12 19.58 12 19.58s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                  fill="none" stroke="currentColor" stroke-width="2" />
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#skin-quiz">Skin Quiz</a>
+            <a href="#collection">Collection</a>
+            <a href="#expertise">Our Expertise</a>
+            <a href="#experience">Experience</a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <!-- PLACEHOLDER: client contact info -->
+        <!-- FOOTER — CONTACT INFO (UPDATED WITH REAL DATA) -->
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            +91 98006 60047
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            info@ellauramist.com
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Bus Stand Chowk, Near Green Hotel, Mansa, Punjab - 151505
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            Mon - Sun: 10:00 AM - 8:00 PM
+          </p>
+          <p style="font-size: var(--label-sm); opacity: 0.6; margin-top: 8px;">
+            GSTIN: 03CRKPG1809C1ZD &nbsp;|&nbsp; Udyam Reg: UDYAM-PB-13-0021239
+          </p>
+        </div>
+        <!-- Enquiry Form -->
+        <!-- PLACEHOLDER: form submission endpoint, client to provide (e.g. Formspree) -->
+        <div class="footer-form">
+          <h4>Send Us a Message</h4>
+          <form class="enquiry-form" id="enquiryForm" novalidate>
+            <div class="form-group">
+              <input type="text" id="formName" placeholder="Your Name *" required>
+              <span class="form-error" id="nameError">Please enter your name</span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="formEmail" placeholder="Your Email *" required>
+              <span class="form-error" id="emailError">Please enter a valid email</span>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="formPhone" placeholder="Phone (optional)">
+            </div>
+            <div class="form-group">
+              <textarea id="formMessage" placeholder="Your Message *" rows="3" required></textarea>
+              <span class="form-error" id="messageError">Please enter your message</span>
+            </div>
+            <button type="submit" class="btn-primary form-submit-btn">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            ✓ Thank you! Your message has been sent. We'll get back to you soon.
+          </div>
+        </div>
+
+        <!-- Add to Expertise section, after the 4-card grid, before Brand Story -->
+        <div class="trust-badges reveal">
+          <div class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 12l2 2 4-4" />
+              <circle cx="12" cy="12" r="10" />
+            </svg>
+            <span>GST Registered</span>
+          </div>
+          <div class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 7h-9M14 17H5M17 3v18M3 3v18" />
+            </svg>
+            <span>Udyam Registered MSME</span>
+          </div>
+          <div class="trust-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+            <span>Made in Punjab, India</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Ellaura Mist. All rights reserved. | Premium Natural Skincare</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

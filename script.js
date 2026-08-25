@@ -80,7 +80,7 @@ const products = [
     size: "50g",
     price: 549,
     image: "assets/images/sunscreen.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/ELLAURA-MIST-Sunscreen-Broad-Spectrum/dp/B0F92QR8K8/ref=sr_1_13?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-13", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["all"]
   },
   {
@@ -97,7 +97,7 @@ const products = [
     size: "100ml",
     price: 399,
     image: "assets/images/salicylic-facewash.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Ellaura-Salicylic-Cleanser-Control-Blackhead/dp/B0DPXL55W1/ref=sr_1_16?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-16", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["oily"]
   },
   {
@@ -114,7 +114,7 @@ const products = [
     size: "100ml",
     price: 399,
     image: "assets/images/kojic-facewash.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Niacinamide-Hyperpigmentation-Dermatologist-cleanser-combination/dp/B0DPXLKMKQ/ref=sr_1_9?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-9", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["combination"]
   },
   {
@@ -131,7 +131,7 @@ const products = [
     size: "100ml",
     price: 399,
     image: "assets/images/allskin-facewash.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Glycolic-Facewash-Hydration-Elasticity-Exfoliating/dp/B0DQ8GM3VH/ref=sr_1_10?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-10", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["sensitive", "all"]
   },
   {
@@ -148,7 +148,7 @@ const products = [
     size: "50g",
     price: 479,
     image: "assets/images/moisturizing-cream.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/ELLAURA-Granactive-Retinoid-Anti-Aging-Renewal/dp/B0DPXQXQBZ/ref=sr_1_3?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-3", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["dry", "all"]
   },
   {
@@ -165,7 +165,7 @@ const products = [
     size: "100ml",
     price: 199,
     image: "assets/images/aloevera-gel.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Premium-Ingredients-Hydration-Hyaluronic-Dermatologist/dp/B0FJZQHMT7/ref=sr_1_8?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-8", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["sensitive", "all"]
   },
   {
@@ -182,7 +182,7 @@ const products = [
     size: "100ml",
     price: 299,
     image: "assets/images/face-toner.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Face-toner-Niacinamide-hyaluronic-Toner/dp/B0FJZGGB5L/ref=sr_1_4?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-4", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["all"]
   },
   {
@@ -199,7 +199,7 @@ const products = [
     size: "100ml",
     price: 299,
     image: "assets/images/dtan-pack.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Ellaura-Mist-D-Tan-Pack-Face/dp/B0FMB8XTTD/ref=sr_1_6?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-6", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["all"]
   },
   {
@@ -216,7 +216,7 @@ const products = [
     size: "100ml",
     price: 349,
     image: "assets/images/face-scrub.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Ellaura-Mist-Face-Scrub-Dermatologist/dp/B0FM9HDLDK/ref=sr_1_12?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-12", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["all"]
   },
   {
@@ -233,7 +233,7 @@ const products = [
     size: "30ml",
     price: 599,
     image: "assets/images/face-serum.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Vitamin-Serum-Glowing-Skin-Multi-Action/dp/B0FJZZDDJV/ref=sr_1_7?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-7", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["all"]
   },
   {
@@ -250,7 +250,7 @@ const products = [
     size: "15ml",
     price: 569,
     image: "assets/images/undereye-serum.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Ellaura-Under-Cream-Circles-Puffiness/dp/B0FYYSR7HK/ref=sr_1_15?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-15", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["all"]
   },
   {
@@ -267,7 +267,7 @@ const products = [
     size: "100ml / 200ml",
     price: 169,
     image: "assets/images/moisturizing-lotion.jpg",
-    amazonLink: "#", // PLACEHOLDER: Amazon link, client will provide
+    amazonLink: "https://www.amazon.in/Moisturizing-Hydration-Non-Greasy-Lightweight-Dermatologically/dp/B0G448MCRS/ref=sr_1_11?crid=19U9S1C8VLL2P&dib=eyJ2IjoiMSJ9.GIkPzaLfuwave6Sd725TDQzZTIK-bu9AstGxm0zJXgj8R_dZiydEWVljvyX_vl9YYND9CdIZwHFhLMFKlF7JBPIWgEECzQYu9VxHiJGGj0AdqjLulKBVNfUuHGt2nK471IvOYU21GMiOZMQsWnqHbXO09PHgVHL05OJwpQnzBeHMo5RRKzVuZjRX5vAiKv4a0wwZfiUg_DNG0T2kqh33Ig.0i15lygNu9tuiDwXlWKc-aJUStLTJlIffKWPQj_VlxA&dib_tag=se&keywords=ellauramist&qid=1787637505&sprefix=ellauram%2Caps%2C544&sr=8-11", // PLACEHOLDER: Amazon link, client will provide
     skinType: ["dry", "all"]
   }
 ];
@@ -748,6 +748,8 @@ function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     // Skip if already handled by navbar
     if (anchor.closest('.nav-links') || anchor.closest('.mobile-nav-panel')) return;
+    // Skip Buy Now button — its href gets replaced with a real Amazon link dynamically
+    if (anchor.id === 'modalBuyBtn') return;   // ← YE LINE ADD KAR
 
     anchor.addEventListener('click', (e) => {
       const href = anchor.getAttribute('href');

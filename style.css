@@ -1021,18 +1021,19 @@ input, textarea {
   overflow: hidden;
   position: relative;
 }
-
+/* Product Card Image — BEFORE was object-fit: cover */
 .product-card-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;      /* changed from cover */
+  padding: 12px;              /* thoda breathing space */
+  background: #ffffff;    /* white background instead of lavender gradient */
   transition: transform var(--duration-slow) var(--ease-out);
 }
 
 .product-card:hover .product-card-img img {
-  transform: scale(1.05);
+  transform: scale(1.03);   /* zoom thoda kam kar diya, 1.05 se 1.03 */
 }
-
 .product-card-img .placeholder-icon {
   font-size: 48px;
   opacity: 0.2;
@@ -1213,11 +1214,13 @@ input, textarea {
   justify-content: center;
   overflow: hidden;
 }
-
+/* Modal Image — same fix */
 .modal-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;      /* changed from cover */
+  padding: 20px;
+  background: #ffffff;
 }
 
 .modal-img .placeholder-icon {

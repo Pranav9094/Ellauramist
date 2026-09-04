@@ -657,8 +657,7 @@ function closeProductModal() {
 function initForm() {
   const form = document.getElementById('enquiryForm');
   const successMsg = document.getElementById('formSuccess');
-
-  form.addEventListener('submit', (e) => {
+form.addEventListener('submit', async (e) => {
     e.preventDefault();
     let isValid = true;
 
@@ -694,18 +693,40 @@ function initForm() {
     }
 
     if (isValid) {
-      // PLACEHOLDER: form submission endpoint, client to provide (e.g. Formspree)
-      // For now, just show success message
-      form.style.display = 'none';
-      successMsg.classList.add('show');
+      const submitBtn = form.querySelector('.form-submit-btn');
+      submitBtn.disabled = true;
+      submitBtn.querySelector('span').textContent = 'Sending...';
 
-      // Reset after 5 seconds
-      setTimeout(() => {
-        form.reset();
-        form.style.display = 'flex';
-        successMsg.classList.remove('show');
-        form.querySelectorAll('.form-group').forEach(g => g.classList.remove('error'));
-      }, 5000);
+      try {
+        const formData = new FormData(form);
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: formData,
+          headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+          form.style.display = 'none';
+          successMsg.classList.add('show');
+
+          setTimeout(() => {
+            form.reset();
+            form.style.display = 'flex';
+            successMsg.classList.remove('show');
+            form.querySelectorAll('.form-group').forEach(g => g.classList.remove('error'));
+            submitBtn.disabled = false;
+            submitBtn.querySelector('span').textContent = 'Send Message';
+          }, 5000);
+        } else {
+          alert('Something went wrong. Please try again or contact us directly.');
+          submitBtn.disabled = false;
+          submitBtn.querySelector('span').textContent = 'Send Message';
+        }
+      } catch (error) {
+        alert('Something went wrong. Please try again or contact us directly.');
+        submitBtn.disabled = false;
+        submitBtn.querySelector('span').textContent = 'Send Message';
+      }
     }
   });
 
